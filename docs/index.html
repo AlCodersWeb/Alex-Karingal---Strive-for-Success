@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex Karingal - Strive for Success</title>
+    <meta
+      name="description"
+      content="Explore the professional journey and personal life of Alex Karingal."
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <style>
+      /* Reset basic styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2.5em;
+        font-weight: bold;
+        color: #1a1a1a;
+        margin: 20px 0;
+      }
+
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+      }
+
+      .image-container {
+        position: relative;
+        width: 300px;
+        background-color: #fff;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .gallery img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-bottom: 2px solid #ddd;
+        transition: transform 0.3s ease;
+      }
+
+      .gallery img:hover {
+        transform: scale(1.05);
+      }
+
+      .description {
+        display: none;
+        padding: 10px;
+        font-size: 16px;
+        color: #444;
+        background-color: #2c3e50;
+        color: #fff;
+        border-top: 2px solid #ddd;
+        font-weight: bold;
+      }
+
+      .image-container:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      .image-container:hover .description {
+        display: block;
+      }
+
+      /* Add responsiveness for smaller screens */
+      @media (max-width: 768px) {
+        .gallery {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .image-container {
+          width: 90%;
+          margin-bottom: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Alex Karingal - Strive for Success</h1>
+    <div class="gallery">
+      <div class="image-container">
+        <img
+          src="images/Photo of Alex Karingal.jpg"
+          alt="PassPort size Photo of MR.Alex Karingal"
+        />
+        <div class="description">PassPort size Photo of MR.Alex Karingal</div>
+      </div>
+      <div class="image-container">
+        <img
+          src="images/Photo of Alex Karingal with his Family.jpg"
+          alt="Alex Karingal with his Family"
+        />
+        <div class="description">Photo of Alex Karingal with his Family</div>
+      </div>
+      <div class="image-container">
+        <img
+          src="images/Photo of Alex Karingal with a Preist.jpg"
+          alt="Alex Karingal with a Priest"
+        />
+        <div class="description">Photo of Alex Karingal with a Priest</div>
+      </div>
+      <div class="image-container">
+        <img
+          src="images/Photo of Alex Karingal travaling in a train.jpg"
+          alt="Alex Karingal Traveling in a Train"
+        />
+        <div class="description">
+          Photo of Alex Karingal Traveling in a Train
+        </div>
+      </div>
+      <div class="image-container">
+        <img
+          src="images/Photo of Alex Karingal Giving an Award.jpg"
+          alt="Alex Karingal Giving an Award"
+        />
+        <div class="description">Photo of Alex Karingal Giving an Award</div>
+      </div>
+      <div class="image-container">
+        <img
+          src="images/Alex Karingal's PassPort size photo.jpg"
+          alt="Alex Karingal's PassPort Size Photo"
+        />
+        <div class="description">Alex Karingal's PassPort Size Photo</div>
+      </div>
+    </div>
+  </body>
+</html>
